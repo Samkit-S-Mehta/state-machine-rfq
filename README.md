@@ -55,3 +55,9 @@ Limitations:
 
 not used any in memory db instead used the in memory map just to store the data. kept it with minimum states and events with focus on strucutre and design pattern to make it minimal with spring boot app to quickly install, swagger ui to quickly test and rest controller and integartion test structure.
 and to focus on states and events logic.
+
+Directory Structure:
+
+![Screenshot 2023-04-24 110054](https://user-images.githubusercontent.com/57173830/233907775-63780a70-abb3-4ac9-b1f5-fbe5ea19ddb2.png)
+
+![Screenshot 2023-04-24 110225](https://user-images.githubusercontent.com/57173830/233907935-fa5028c7-69cc-4222-92e8-21e618f65545.png)
