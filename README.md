@@ -43,11 +43,9 @@ State Machine working is based on the events,
 
 any request trigger the events and each events are associated with the Processor and the next state in that respective state machine and in this flow ProcessData object is used as input and output revolving around the flow. 
 
-/**
  * INIT       -  rfq               -> rfqProcessor()   -> quoteSent   -> QUOTE_SENT
  * QUOTE_SENT -  bookingRequest    -> bookingRequestProcessor() -> bookingError   -> QUOTE_SENT
  * QUOTE_SENT -  bookingRequest    -> bookingRequestProcessor() -> bookingSuccess -> BOOKING_COMPLETED
- */
 
 we just need to crate the processor, hookin to the next event to scale and can add more states and events in this structure.
 
